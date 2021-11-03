@@ -192,7 +192,7 @@ table, tr, td{
 }
 /*--------------about us-------------*/
 .sub-header{
-    height: 50vh;
+    height: 85vh;
     width: 100%;
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_with_sarovar-002.jpg);
     background-position: center;
