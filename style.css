@@ -38,9 +38,7 @@
 .nav-links .sub-menu{
     display: none;
 }
-/* .nav-links .sub-menu ul li{
-    list-style-type: none;
-} */
+
 .nav-links ul li:hover .sub-menu{
     display: block;
     position: absolute;
@@ -68,17 +66,15 @@
 }
 
 .text-box{
-    width: 90%;
-    color: rgb(250, 242, 242);
+    color:white;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+    top: 65%;
+    left: 35%;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 60px;
 }
+
 /*--------------places--------*/
 .places{
     width: 80%;
@@ -202,10 +198,6 @@ table, tr, td{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color:#fff;
-}
-.sub-header h1{
-    margin-top: -66px;
 }
 .wrapper{
     background: rgb(238, 219, 186);
