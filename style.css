@@ -16,7 +16,8 @@
 .nav-links ul{
     list-style-type: none;
     float: right;
-    margin: 12px 287px 0px 382px;
+    margin-top: 25px;
+    margin-right: 355px;
     font-size: 20px;
 }
 .nav-links ul li{
@@ -32,17 +33,15 @@
     border-radius: 4px;
 }
 .nav-links ul li a:hover{
-   background-color: rgba(207, 114, 26, 0.979);
+    background-color: rgba(83, 47, 13, 0.979);
 }
 
 .nav-links .sub-menu{
     display: none;
 }
-
 .nav-links ul li:hover .sub-menu{
     display: block;
     position: absolute;
-    
     background:transparent;
     margin-top: 5px;
     margin-left: 5px;
@@ -64,7 +63,6 @@
     padding: 6px;
     margin: 2px;
 }
-
 .text-box{
     color:white;
     position: absolute;
@@ -80,18 +78,28 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .places h1{
-    font-size: 50px;
+    border:solid blue;
+    color:blue;
+    font-size: 60px;
+    padding: 10px;
     font-weight: 700;
 }
+.places h3{
+    color: cornsilk;
+    font-size: 25px;
+}
 .places p{
-    color: #777;
+    color: rgb(238, 230, 230);
     font-size: 17px;
     font-weight: 300;
     line-height: 30px;
     padding: 30px;
+}
+.places p a{
+    color:yellow;
 }
 .row{
     margin-top: 5%;
@@ -105,10 +113,39 @@
     justify-content: space-between;
     
 }
+.places_to_visit1{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_with_sarovar-002.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.places_to_visit2{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(https://cdn.britannica.com/54/156454-050-4E72CEE0/Humayuns-Tomb-Hamidah-Banu-Begam-Delhi-India-1569.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.places_to_visit3{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)) ,url(https://www.holidify.com/images/cmsuploads/compressed/5621259188_e74d63cb05_b_20180302140149.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.places_to_visit4{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)) ,url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Jantar-Mantar_1400.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.places_to_visit5{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(https://bahaihouseofworship.in/wp-content/uploads/2020/07/lotus-temple-night-2-Edit-scaled-1536x1025.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.places_to_visit6{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)) ,url(https://www.makemytrip.com/travel-guide/media/dg_image/delhi/Qutub-Minar-Delhi.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
-.places_to_visit{
+.places_to_visit1,.places_to_visit2,.places_to_visit3,.places_to_visit4,.places_to_visit5,.places_to_visit6{
     flex-basis:31%;
-    background: #fff3f3;
     border-radius: 10px;
     margin-left: 5px;
     padding: 20px 12px;
@@ -197,7 +234,7 @@ table, tr, td{
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_with_sarovar-002.jpg);
     background-position: center;
     background-size: cover;
-
+    
 }
 .wrapper{
     background: rgb(238, 219, 186);
