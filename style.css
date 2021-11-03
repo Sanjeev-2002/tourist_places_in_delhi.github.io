@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.header{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_with_sarovar-002.jpg);
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     
+}
+
+.nav-links ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 355px;
+    font-size: 20px;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 5px;  
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color:rgba(238, 248, 238, 0.959);
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s ease; 
+    border-radius: 4px;
+}
+.nav-links ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+.nav-links .sub-menu{
+    display: none;
+}
+/* .nav-links .sub-menu ul li{
+    list-style-type: none;
+} */
+.nav-links ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    
+    background:transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.nav-links ul li:hover .sub-menu ul{
+    display:block;
+    margin: 2px;
+    
+}
+.nav-links ul li:hover .sub-menu ul li{
+    display:block;
+    width: auto;
+    padding: 5px;    
+    background:transparent;
+}
+.nav-links ul li:hover .sub-menu ul li a{
+    display: list-item;
+    padding: 6px;
+    margin: 2px;
+}
+
+.text-box{
+    width: 90%;
+    color: rgb(250, 242, 242);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+/*--------------places--------*/
+.places{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.places h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.places p{
+    color: #777;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 30px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cols{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.places_to_visit{
+    flex-basis:31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;  
+}
+.places_to_visit h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.row :hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/*----------------------list--------------*/
+.list, ul{
+    padding: 5px;
+    margin-left: 10px;
+}
+.list ul li{
+    padding: 6px;
+    margin-left: 15px;
+    list-style-type: disc;
+}
+
+table, tr, td{
+    padding: 5px;
+    margin-left:15px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+/*----------------- FOOTER---------*/
+.footer{
+    padding:40px,0;
+    margin-top: 50px;
+    background-color: blanchedalmond;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 22px;
+    color: darkorchid;
+}
+.footer .social a{
+    font-size: 24px;
+    color:inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style:none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.95;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity:1;
+}
+/*--------------about us-------------*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_with_sarovar-002.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-header h1{
+    margin-top: -66px;
+}
+.wrapper{
+    background: rgb(238, 219, 186);
+    font-family: "Josefin Sans",sans-serif;
+    margin-top: 20px;
+}
+.wrapper h1{
+    color: rgb(147, 216, 177);
+    font-family: "Allura",cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+    margin: 40px;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom:50px ;
+    width:300px;
+    padding: 20px;
+    line-height: #8e8b8b;
+    position: relative;
+}
+.team .team_member h3{
+    color:#81c644;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.team .team_member .role{
+    color:#ccc;
+    font-size: 12px;
+    text-transform:uppercase;
+    margin: 12px 0;
+}
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute ;
+    top: -50px;
+    left: 50%;
+    transform: translate(-65%,-10%);
+}
+.team .team_member .team_img img{
+    
+    width: 125px;
+    height: 125px;
+}
+/*-----------Places-------------*/
+.content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.left-content{
+    flex-basis: 65%;
+}
+.left-content .img img{
+    width :100%;
+}
+.left-content h2{
+    color:#222;
+    font-weight: 600;
+    margin: 30px;
+}
+.left-content p{
+    color:#999;
+    padding:0;
+}
+.right-content{
+    flex-basis: 32%;
+}
+.right-content h3{
+    background:#f44336;
+    color:#fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.map{
+    margin-left: 30%;
+    margin-right: 20%;
+}
