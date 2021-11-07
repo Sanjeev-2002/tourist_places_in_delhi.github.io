@@ -387,8 +387,11 @@ table, tr, td{
     border-radius: 20px;
   }
 /* ---------------More places------------------ */
-.places .places_to_visit h3,.places_to_visit p, .places_to_visit a{
+.places .places_to_visit h3,.places_to_visit p{
     color:black;
+}
+.places .places_to_visit a{
+    color:blue;
 }
 .places .more_place img{
     width:90%;
